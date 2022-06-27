@@ -1,14 +1,21 @@
 import React from 'react';
-// import ProjectItem from '../components/ProjectItem'
-// import IMG from "../assets/randomimg"
+import ProjectItem from '../../components/ProjectItem/ProjectItem'
+import alphabetTestScreenshot from '../../assets/SJDA_alphabet_test_screenshot.png'
+import helpIAmBoredScreenshot from '../../assets/help-i-am-bored_screenshot10.png'
+import memeticUniverseScreenshot from '../../assets/MemeticUniverseScreenshot.PNG'
+import laserCat1 from '../../assets/laser_cat_1.jpg'
+import laserCat2 from '../../assets/laser_cat_2.jpg'
+import laserCat3 from '../../assets/laser_cat_3.jpg'
+import './Project.scss'
 
 function Project() {
     return(
         <div className="projects">
             <h1>My Projects</h1>
             <div className="projectsList">
-                {/* <ProjectItem name="fillername" image={"IMG"} />
-                <ProjectItem name="fillername" image={""} /> */}
+                <ProjectItem name="SJDA Alphabet Test" image={alphabetTestScreenshot} />
+                <ProjectItem name="Help, I'm Bored" image={helpIAmBoredScreenshot} />
+                <ProjectItem name="My Codepen" image={memeticUniverseScreenshot} />
             </div>
         </div>
         ) 

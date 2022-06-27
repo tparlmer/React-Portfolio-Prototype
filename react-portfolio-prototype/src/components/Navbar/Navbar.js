@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Navbar.scss'
+import { GiHamburgerMenu} from 'react-icons/gi'
 
 
 function Navbar() {
@@ -18,7 +19,9 @@ function Navbar() {
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="toggleButton">
                 <button onClick={() => { setExpandNavbar((prev) => !prev) }}>
-                    <div>Expand</div>
+                    <div>
+                        <GiHamburgerMenu />
+                    </div>
                 </button>
             </div>
             <div className='links'>

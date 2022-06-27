@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from 'react-icons/ai'
+import './Footer.scss'
 
 function Footer() {
     return (
@@ -9,7 +10,6 @@ function Footer() {
                 <AiFillGithub />
                 <AiFillLinkedin />
                 <AiOutlineMail />
-                &copy; 2022 Parlmer, Inc.
             </div>
         </footer>
 

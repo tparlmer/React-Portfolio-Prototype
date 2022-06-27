@@ -3,7 +3,7 @@ import About from '../About/About'
 
 function Header() {
     return (
-        <div>Header</div>
+        <div>THE BEST PORTFOLIO ON EARTH</div>
     )
 }
 

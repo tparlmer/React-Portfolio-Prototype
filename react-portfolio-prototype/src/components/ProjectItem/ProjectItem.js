@@ -1,4 +1,5 @@
 import React from 'react';
+import './ProjectItem.scss'
 
 function ProjectItem({ image, name }) {
     return(
