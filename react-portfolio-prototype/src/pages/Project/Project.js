@@ -13,9 +13,9 @@ function Project() {
         <div className="projects">
             <h1>My Projects</h1>
             <div className="projectsList">
-                <ProjectItem name="SJDA Alphabet Test" image={alphabetTestScreenshot} />
-                <ProjectItem name="Help, I'm Bored" image={helpIAmBoredScreenshot} />
-                <ProjectItem name="My Codepen" image={memeticUniverseScreenshot} />
+                <ProjectItem name="SJDA Alphabet Test" image={alphabetTestScreenshot} link={"https://ancient-brook-00685.herokuapp.com/"} repo={"https://github.com/tparlmer/SJDA_Alphabet_Test"} />
+                <ProjectItem name="Help, I'm Bored" image={helpIAmBoredScreenshot} link={"https://tparlmer.github.io/help-i-am-bored/"} repo={"https://github.com/tparlmer/help-i-am-bored"} />
+                <ProjectItem name="My Codepen" image={memeticUniverseScreenshot} link={""} repo={""} />
             </div>
         </div>
         ) 
